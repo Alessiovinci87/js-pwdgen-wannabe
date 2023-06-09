@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>(insicurissimo) password generator</title>
+</head>
+<body>
+  
+    <!-- JS -->
+    <script type="text/javascript">
+
+        // Chiedi il nome all'utente
+        const nome = prompt("Inserisci il tuo nome");
+
+        // Chiedi il cognome all'utente
+        const cognome = prompt("Inserisci il tuo cognome");
+
+        // Chiedi il colore preferito all'utente
+        const colorePreferito = prompt("Inserisci il tuo colore preferito");
+
+        // Chiedi che squadra tifa
+        const squadraDelCuore = prompt("Inserisci la squadra del cuore")
+
+        // Inserisci password 
+        const password = prompt("Inserisci password");
+
+        /* Componi la stringa finale 
+           inserendo gli spazi tra i risultati */ 
+        const risultato = nome + " " + cognome + " " + colorePreferito + " " + squadraDelCuore + " " + password + " " + "101";
+
+        // Visualizza il risultato nella console
+        console.log(nome);
+        console.log(cognome);
+        console.log(colorePreferito);
+        console.log(squadraDelCuore);
+        console.log(password);
+
+        document.write(risultato);
+
+    </script>
+</body>
+</html>
